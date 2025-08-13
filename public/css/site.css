@@ -1,0 +1,377 @@
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #202227;
+}
+
+.carousel-inner .item {
+    height: 120px;
+}
+@media (min-width: 768px) {
+    .carousel-inner .item {
+        height: 210px;
+    }
+}
+@media (min-width: 992px) {
+    .carousel-inner .item {
+        height: 280px;
+    }
+}
+@media (min-width: 1200px) {
+    .carousel-inner .item {
+        height: 400px;
+    }
+}
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    /*background-image: url(../img/intro-bg.jpg);*/
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+}
+
+header.awards {
+    text-align: left;
+}
+header .intro-text {
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 52px;
+}
+
+header.awards .intro-text .intro-lead-in {
+    font-size: 38px;
+    line-height: 45px;
+    font-family: m300;
+    margin-bottom: 0;
+    text-shadow: none;
+    color: #000;
+    font-style: normal;
+}
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 50px;
+}
+header.awards .intro-text .intro-heading {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: aitalic;
+    text-shadow: none;
+    font-weight: normal;
+    #color: #000;
+    max-width: 40%;
+}
+header .intro-text .btn.btn-success{
+    border-color: rgba(3, 129, 0, 0.6);
+}
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 65px;
+        font-style: italic;
+        line-height:70px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+@media(min-width:1200px) {
+    header .intro-text {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 65px;
+        font-style: italic;
+        line-height:70px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
+#services,
+#portfolio{
+    padding: 100px 30px;
+    background: #FFF;
+    color: #000;
+    font-family: m100;
+    font-size: 16px;
+}
+#portfolio h1,#portfolio h2{
+    color: #FFF;
+    font-family: m300;
+    font-size: 40px;
+}
+#portfolio h3,#portfolio h4,#portfolio h5{
+    font-family: m300;
+    text-shadow: none;
+    font-size: 22px;
+}
+#services h1,#services h2,#services h3,#services h4,#services h5{
+    color: #000;
+    font-family: m100;
+    text-shadow: none;
+    font-size: 28px;
+}
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+    font-family: m100;
+}
+
+#services .col-md-3{
+    padding-left: 85px;
+    padding-right: 85px;
+}
+#portfolio{
+    background: #000;
+}
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+#portfolio .portfolio-item .portfolio-link img{
+    margin: auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    display: none;
+    /*position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(254,209,54,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;*/
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px 0;
+    max-width: 400px;
+    text-align: center;
+    background-color: #202227;
+    color: white;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+section#contact {
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 250px;
+}
+
+section#contact .btn.btn-lg{
+    padding: 14px 90px;
+    font-size: 24px;
+}
+
+section#contact h4{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+section#contact iframe{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section#contact address{
+    color: #FFF;
+    background: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+section#contact .fa-spinner{
+    margin-top: 5px;
+}
+section#contact .alert{
+    margin-top: 5px;
+}
+@media(max-width: 1200px) {
+    section#contact {
+        padding-bottom: 100px;
+    }
+}
+@media(max-width: 992px){
+    section#contact h4{
+        margin-top: 20px;
+    }
+}
+
+
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    header{
+        background-size: contain;
+        background-position: center top;
+    }
+    header .intro-text {
+        padding-top: 20px;
+    }
+    header.awards .intro-text .intro-lead-in{
+        padding: 5px;
+        background: rgba(255,255,255,0.85);
+        font-size: 24px;
+        text-align: center;
+        line-height: 28px;
+    }
+    header.awards .intro-text .intro-heading{
+        max-width:100%;
+    }
+    .carousel-inner{
+        overflow: visible;
+    }
+    .carousel-inner .item {
+        height: auto;
+    }
+}
+
+@font-face{font-family:m100;src:url(../fonts/museo-100-webfont.eot);src:url(../fonts/museo-100-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/museo-100-webfont.woff2) format('woff2'),url(../fonts/museo-100-webfont.woff) format('woff'),url(../fonts/museo-100-webfont.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:m300;src:url(../fonts/museo-300-webfont.eot);src:url(../fonts/museo-300-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/museo-300-webfont.woff2) format('woff2'),url(../fonts/museo-300-webfont.woff) format('woff'),url(../fonts/museo-300-webfont.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:aitalic;src:url(../fonts/aleo-italic-webfont.eot);src:url(../fonts/aleo-italic-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/aleo-italic-webfont.woff2) format('woff2'),url(../fonts/aleo-italic-webfont.woff) format('woff'),url(../fonts/aleo-italic-webfont.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:aregular;src:url(../fonts/aleo-regular-webfont.eot);src:url(../fonts/aleo-regular-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/aleo-regular-webfont.woff2) format('woff2'),url(../fonts/aleo-regular-webfont.woff) format('woff'),url(../fonts/aleo-regular-webfont.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:lbold;src:url(../fonts/lato-bold-webfont.eot);src:url(../fonts/lato-bold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/lato-bold-webfont.woff2) format('woff2'),url(../fonts/lato-bold-webfont.woff) format('woff'),url(../fonts/lato-bold-webfont.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:llight;src:url(../fonts/lato-light-webfont.eot);src:url(../fonts/lato-light-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/lato-light-webfont.woff2) format('woff2'),url(../fonts/lato-light-webfont.woff) format('woff'),url(../fonts/lato-light-webfont.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:lregular;src:url(../fonts/lato-regular-webfont.eot);src:url(../fonts/lato-regular-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/lato-regular-webfont.woff2) format('woff2'),url(../fonts/lato-regular-webfont.woff) format('woff'),url(../fonts/lato-regular-webfont.ttf) format('truetype');font-weight:400;font-style:normal}@font-face{font-family:m500;src:url(../fonts/museo-500-webfont.eot);src:url(../fonts/museo-500-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/museo-500-webfont.woff2) format('woff2'),url(../fonts/museo-500-webfont.woff) format('woff'),url(../fonts/museo-500-webfont.ttf) format('truetype'),url(../fonts/museo-500-webfont.woff#museo500) format('svg');font-weight:400;font-style:normal}

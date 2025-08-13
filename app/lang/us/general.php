@@ -1,0 +1,93 @@
+<?php
+
+return array(
+
+    /*
+    |--------------------------------------------------------------------------
+    | General Language Lines
+    |--------------------------------------------------------------------------
+    */
+    "users" => "Users",
+    "contests" => "Contests",
+    "accept" => "Accept",
+    "cancel" => "Cancel",
+    "ok" => "Ok",
+    "yes" => "Ye",
+    "no" => "No",
+    "admin" => "Administrator",
+    "email" => "E-mail",
+    "password" => "Password",
+    "save" => "Save",
+    "saved" => "Saved",
+    "delete" => "Delete",
+    "close" => "Close",
+    "back" => "Back",
+    "name" => "Name",
+    "lastName" => "Last name",
+    "to" => "to",
+    "of" => "of",
+    "results" => "results",
+    "edit" => "Edit",
+    "modify" => "Modify",
+    "view" => "View",
+    "facebook" => "Facebook",
+    "twitter" => "Twitter",
+    "google+" => "Google+",
+    "search" => "Search...",
+    "code" => "Code",
+    "error" => "Error",
+    "formats" => "Formats",
+    "label" => "Label",
+    "type" => "Type",
+    "extension" => "Extension",
+    "command" => "Command",
+    "status" => "Status",
+    "user" => "User",
+    "contest" => "Contest",
+    "contestFiles" => "Files",
+    "link" => "Link",
+    "video" => "Video",
+    "image" => "Image",
+    "audio" => "Audio",
+    "document" => "Document",
+    "other" => "Other",
+
+    "sortBy" => "Order",
+    "sortBy.name" => "Name",
+    "sortBy.date" => "Date",
+    "sortBy.id" => "ID",
+    "sortBy.user" => "User",
+
+    "deadlines" => "Dates",
+    "deadlines.start_at" => "Start",
+    "deadlines.deadline1_at" => "First deadline",
+    "deadlines.deadline2_at" => "Second deadline",
+
+    "filesStatus.queued" => "Waiting encoding",
+    "filesStatus.queueddone" => "Done",
+    "filesStatus.error" => "Encoding Error",
+    "filesStatus.errorexplain" => "There was an error while processing this file, please reupload the file or select a different file",
+    "filesStatus.uploading" => "Uploading",
+    "filesStatus.uploadinterrupted" => "Upload incomplete",
+    "filesStatus.uploadinterruptedexplain" => "Please, reupload the file or select a different file",
+    "filesStatus.canceled" => "Canceled",
+    "filesStatus.canceledexplain" => "This file is canceled, please select a different file",
+
+    "toggleView" => "Change list",
+    "toggleGroupedView" => "Categories / Only entries",
+    "nofiles" => "No files were found",
+
+    "enable" => "Enable",
+    "loginAs" => "Login",
+    "print" => "Print",
+    "printPagesAprox" => "pages",
+
+    "loading" => "Loading. Please, wait...",
+    "entryId" => "Entry ID",
+    "entryTitle" => "Title",
+    "entryPerUser" => "Entries by user",
+
+    "pageNotFound" => "Page not found",
+    "filters" => "filter",
+    "selected" => "Selected",
+);

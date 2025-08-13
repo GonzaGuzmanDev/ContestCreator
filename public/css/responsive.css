@@ -1,0 +1,38 @@
+@media only screen and (max-height:360px) {
+}
+
+@media only screen and (min-width:640px) {
+}
+
+@media only screen and (min-width:640px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width:768px) {
+}
+
+@media only screen and (min-width:768px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width:1024px) {
+}
+
+@media only screen and (min-width:1024px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width:1140px) {
+}
+
+@media only screen and (min-width:1280px) {
+}
+
+@media only screen and (min-width:1500px) {
+}
+
+@media only screen and (min-width:1921px) {
+}
+
+@media only screen and (max-width:1768px) and (max-height:1768px) and (orientation: landscape) and (orientation: portrait){
+}
+
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+}

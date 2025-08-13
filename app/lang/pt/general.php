@@ -1,0 +1,92 @@
+<?php
+
+return array(
+
+    /*
+    |--------------------------------------------------------------------------
+    | General Language Lines
+    |--------------------------------------------------------------------------
+    */
+    "users" => "Usuários",
+    "contests" => "Concursos",
+    "accept" => "Aceitar",
+    "cancel" => "Cancelar",
+    "ok" => "Ok",
+    "yes" => "Sim",
+    "no" => "Não",
+    "admin" => "Administrador",
+    "email" => "E-mail",
+    "password" => "Senha",
+    "save" => "Salvar",
+    "saved" => "Salvo",
+    "delete" => "Deletar",
+    "close" => "Fechar",
+    "back" => "Voltar",
+    "name" => "Nome",
+    "lastName" => "Sobrenome",
+    "to" => "para",
+    "of" => "de",
+    "results" => "resultados",
+    "edit" => "Editar",
+    "modify" => "Modificar",
+    "view" => "Visualizar",
+    "facebook" => "Facebook",
+    "twitter" => "Twitter",
+    "google+" => "Google+",
+    "search" => "Buscar...",
+    "code" => "Código",
+    "error" => "Error",
+    "formats" => "Formatos",
+    "label" => "Label",
+    "type" => "Tipo",
+    "extension" => "Extensão",
+    "command" => "Comando",
+    "status" => "Status",
+    "user" => "Usuário",
+    "contest" => "Concurso",
+    "contestFiles" => "Arquivos",
+    "link" => "Link",
+    "video" => "Vídeo",
+    "image" => "Imagem",
+    "audio" => "Áudio",
+    "document" => "Documento",
+    "other" => "Outro",
+
+    "sortBy" => "Ordenar",
+    "sortBy.name" => "Nome",
+    "sortBy.date" => "Data",
+    "sortBy.id" => "ID",
+    "sortBy.user" => "Usuário",
+
+    "deadlines" => "Datas",
+    "deadlines.start_at" => "Começo",
+    "deadlines.deadline1_at" => "Primeiro deadline",
+    "deadlines.deadline2_at" => "Segundo deadline",
+
+    "filesStatus.queued" => "Aguardando processamento do vídeo",
+    "filesStatus.queueddone" => "Pronto",
+    "filesStatus.error" => "Encoding Error",
+    "filesStatus.errorexplain" => "Um erro aconteceu enquanto o arquivo era processado, por favor suba o arquivo novamente ou suba ou novo arquivo",
+    "filesStatus.uploading" => "Subindo",
+    "filesStatus.uploadinterrupted" => "Upload incompleto",
+    "filesStatus.uploadinterruptedexplain" => "Por favor, suba novamente o mesmo arquivo ou outro",
+    "filesStatus.canceled" => "Canceledo",
+    "filesStatus.canceledexplain" => "Este arquivo foi cancelado, por favor selecione outro arquivo",
+
+    "toggleView" => "Mudar a lista",
+    "toggleGroupedView" => "Categorias / Somente inscrições",
+    "nofiles" => "Nenhum arquivo foi encontrado",
+
+    "enable" => "Habilitar",
+    "loginAs" => "Logar",
+    "print" => "Imprimir",
+    "printPagesAprox" => "páginas aprox.",
+
+    "loading" => "Carregando. Por favor, aguarde...",
+    "entryId" => "ID de Inscrição",
+    "entryTitle" => "Título",
+    "entryPerUser" => "Inscrições por usuário",
+
+    "pageNotFound" => "Página não encontrada",
+    "selected" => "Selecionados",
+);

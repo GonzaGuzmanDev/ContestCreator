@@ -1,0 +1,9 @@
+<div id="status-buttons" class="text-center col-md-12 col-sm-12">
+    <!--<a><span ng-class="{'status-buttons-active': {{$active}} >= {{Contest::WIZARD_CREATE_CONTEST}}}"> {{Contest::WIZARD_CREATE_CONTEST}} </span> @lang('contest.wizard.createContest') </a> <i class="fa fa-arrow-right"></i>-->
+    <a class="wizard-button-width"><span ng-class="{'status-buttons-active': {{$active}} >= {{Contest::WIZARD_REGISTER_FORM}}}"> {{Contest::WIZARD_REGISTER_FORM}} </span> @lang('contest.wizard.inscriptions') </a> <i class="fa fa-arrow-right wizard-arrows"></i>
+    <a class="wizard-button-width"><span ng-class="{'status-buttons-active': {{$active}} >= {{Contest::WIZARD_ENTRY_FORM}}}"> {{Contest::WIZARD_ENTRY_FORM}} </span> @lang('contest.wizard.entriesForm') </a> <i class="fa fa-arrow-right wizard-arrows"></i>
+    <a class="wizard-button-width"><span ng-class="{'status-buttons-active': {{$active}} >= {{Contest::WIZARD_CATEGORIES}}}"> {{Contest::WIZARD_CATEGORIES}} </span> @lang('contest.wizard.categories')</a> <i class="fa fa-arrow-right wizard-arrows"></i>
+    <a class="wizard-button-width"><span ng-class="{'status-buttons-active': {{$active}} >= {{Contest::WIZARD_PAYMENT_FORM}}}"> {{Contest::WIZARD_PAYMENT_FORM}} </span> @lang('contest.wizard.contestPaymentsMethods') </a> <i class="fa fa-arrow-right wizard-arrows"></i>
+    <a class="wizard-button-width"><span ng-class="{'status-buttons-active': {{$active}} >= {{Contest::WIZARD_STYLE}}}"> {{Contest::WIZARD_STYLE}} </span> @lang('contest.wizard.style') </a> <i class="fa fa-arrow-right wizard-arrows"></i>
+    <a class="wizard-button-width"><span ng-class="{'status-buttons-active': {{$active}} >= {{Contest::WIZARD_DATES}}}"> {{Contest::WIZARD_DATES}} </span> @lang('contest.wizard.dates')</a>
+</div>

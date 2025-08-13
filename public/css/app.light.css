@@ -1,0 +1,88 @@
+.home-menu .btn:hover {
+    margin-top: 6px;
+    border-bottom-width: 3px;
+}
+
+.list-group{
+    border-bottom: 1px solid #dddddd;
+}
+.list-subgroup{
+    border-left: 1px solid #dddddd;
+}
+#the-sticky-div.sticky {
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+}
+.entry .entry-selected{
+    background-color: #e8e8e8;
+}
+.navbar-brand > span{
+    background-image: url("../img/logo-header.png");
+}
+.login .logo > span{
+    background-image: url("../img/logo.png");
+}
+.list-subgroup{
+    border-bottom: 1px solid #eeeeef;
+    border-left: 1px solid #eeeeef;
+    background: #eeeeef;
+}
+.list-subgroup .list-group-item.title{
+    background: #eeeef0;
+}.judges-table .progress-bar i, .vote-session .progress .progress-bar i, .well .progress .progress-bar i {
+    padding: 0 5px;
+    color: black;
+}
+.progress-bar[aria-valuenow="0"] {
+    color: black;
+}
+
+/* numbered buttons */
+#status-buttons                 {  }
+#status-buttons a               { display:inline-block; color: black !important; font-size:12px; margin-right:10px; text-align:center; text-transform:uppercase; }
+#status-buttons a:hover         { text-decoration:none;}
+
+/* we will style the span as the circled number */
+#status-buttons span            { background: #edb925; display:block; height:40px; margin:0 auto 15px; padding-top:10px; width:40px; border-radius:50%; }
+
+/* active buttons turn light green-blue*/
+.status-buttons-active { background: #1ea52d !important; }
+
+.status-buttons-skiped { background: grey !important; }
+
+.dropdown-menu{
+    background-color: #3a3f44;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    #background-color: white;
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-menu{
+    color: white;
+}
+
+.badge-text{
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.alert-border{
+    border: solid 1px black;
+    text-decoration: none;
+    color: black;
+}
+
+.vote-session .progress,
+.vote-sessions .vote .progress{
+    background-color: grey;
+}

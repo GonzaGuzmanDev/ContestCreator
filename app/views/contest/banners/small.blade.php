@@ -1,0 +1,1 @@
+<div class="small-banner"><div class="banner-title">{{$contest}}</div></div>

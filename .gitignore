@@ -1,0 +1,13 @@
+# Created by .gitignore support plugin (hsz.mobi)
+### Laravel4 template
+.idea
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+/vendor
+app/config/local/*
+app/storage/profile_pictures/*.jpg
+test

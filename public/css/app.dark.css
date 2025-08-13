@@ -1,0 +1,87 @@
+.list-group{
+    border-bottom: 1px solid #0f0f13;
+}
+.list-subgroup{
+    border-left: 1px solid #0f0f13;
+    background-color: #33383e;
+}
+#the-sticky-div.sticky {
+    background-color: #282c30;
+    border-bottom: 1px solid #101316;
+}
+.navbar-brand > span{
+    background-image: url("../img/logo-header-white.png");
+}
+.login .logo > span{
+    background-image: url("../img/logo-white.png");
+}
+
+.list-subgroup{
+    border-bottom: 1px solid #07080a;
+    border-left: 1px solid #07080a;
+    background: #1c1e22;
+}
+.list-subgroup .list-group-item.title{
+    background: #1c1e22;
+}
+
+.selected-files .title{
+    background: rgba(34, 35, 39, 0.85);
+}
+.selected-files .file .file-error > span{
+    font-size: 24px;
+    display: block;
+}
+.selected-files .file .file-error{
+    background: rgba(34, 35, 39, 0.85);
+    color: #c7c7c7;
+}
+
+
+.selected-files .thumbnail{
+    color: #c7c7c7;
+    background: rgba(0,0,0,0.1);
+}
+
+/* numbered buttons */
+#status-buttons                 {  }
+#status-buttons a               { display:inline-block; color: white !important; font-size:12px; margin-right:10px; text-align:center; text-transform:uppercase; }
+#status-buttons a:hover         { text-decoration:none;}
+
+/* we will style the span as the circled number */
+#status-buttons span            { background: #edb925; display:block; height:40px; margin:0 auto 15px; padding-top:10px; width:40px; border-radius:50%; }
+
+/* active buttons turn light green-blue*/
+.status-buttons-active { background: #1ea52d !important; }
+
+.entries .entry-title > a{
+    color: #a9a1a1;
+}
+
+.spinner > div {
+    background-color: #e8e8e8;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.badge-text{
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.alert-border{
+    border: solid 1px white;
+    text-decoration: none;
+    color: white;
+}
+
+.progress {
+    background-color: white;
+    color: black;
+}

@@ -1,4 +1,4 @@
-OxoAwards
+ContestCreator
 =========
 
   Version:  2.0a
@@ -22,20 +22,20 @@ Requirements
         
      - Guardamos y cerramos. [Ctrl + O y Ctrl + X]
 
-SHIT TO FIX
+FIXES
 ===========
 
 - Votaciones
-    - [ ] No mostrar campos con valores vacíos
-	- [ ] Chequear la carga inicial con el scroll
+    - [x] No mostrar campos con valores vacíos
+	- [x] Chequear la carga inicial con el scroll
 	- [x] ó Arrancar con las categorías colapsadas
 	- [ ] Filtrar entries asignables a un jurado por categorías de la sesión
-	- [ ] Contadores de votos en jurado
-	- [ ] Contadores de metales en resultados
+	- [x] Contadores de votos en jurado
+	- [x] Contadores de metales en resultados
 	- [x] Metalero debe votar en la lista
-	- [ ] Chequear voto si/no desde la lista
+	- [x] Chequear voto si/no desde la lista
 	- [x] Thumbnail en la lista
-	- [ ] Filtrar entries por voto dentro de categoría
+	- [x] Filtrar entries por voto dentro de categoría
 	- [ ] Arreglar asignación de entries a jurado con entry por cateogíra
 	- [ ] Árbol de Categorías a la izquierda
 
@@ -54,7 +54,7 @@ SHIT TO FIX
 	- [ ] Nombre del entry en el modal se ve Sin título
 
 - Player
-	[ ] No reproduce los videos en safari/iOS
+	[x] No reproduce los videos en safari/iOS
 	
 - Billing
 	[ ] Cambiar método de pago

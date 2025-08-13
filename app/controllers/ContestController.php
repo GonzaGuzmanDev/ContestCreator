@@ -4942,7 +4942,7 @@ class ContestController extends \BaseController {
 
     public function reportPaymentStripe($contest, $billCode = null)
     {
-        Stripe::setApiKey('sk_test_51HKoshEQ1j1oqB8WwiJzPE7tb5wIvqPYclJQgMMGLh5qtGK6qHioPz0zXMQgHAuuMtNR1PqsC88d2HG7thYqTzUY00Xyxxdyl3');
+        Stripe::setApiKey('');
         $con = $this->getContest($contest);
         if (!$con) return Response::make('Contest not found', 400);
 
@@ -7882,7 +7882,7 @@ class ContestController extends \BaseController {
             case Billing::METHOD_STRIPE:
                 $products = "producto";
                 $entryUrl = url($con->code."/entry/".$entry->id."/bs/");
-                Stripe::setApiKey('sk_test_51HKoshEQ1j1oqB8WwiJzPE7tb5wIvqPYclJQgMMGLh5qtGK6qHioPz0zXMQgHAuuMtNR1PqsC88d2HG7thYqTzUY00Xyxxdyl3');
+                Stripe::setApiKey('');
                 foreach ($billCats as $bCat) {
                     $products = $products." + ".$bCat->category->name;
                 }

@@ -7879,34 +7879,6 @@ class ContestController extends \BaseController {
 
                 $bill->payment_data = json_encode($pData);
                 break;
-            case Billing::METHOD_STRIPE:
-                $products = "producto";
-                $entryUrl = url($con->code."/entry/".$entry->id."/bs/");
-                Stripe::setApiKey('');
-                foreach ($billCats as $bCat) {
-                    $products = $products." + ".$bCat->category->name;
-                }
-                $session = \Stripe\Checkout\Session::create([
-                    'payment_method_types' => ['card'],
-                    'line_items' => [[
-                        'price_data' => [
-                            'currency' => 'usd',
-                            'product_data' => [
-                                'name' => $products,
-                            ],
-                            'unit_amount' => $bill->price,
-                        ],
-                        'quantity' => 1,
-                    ]],
-                    'mode' => 'payment',
-                    'success_url' => $entryUrl."/".Billing::STATUS_SUCCESS,
-                    'cancel_url' => $entryUrl."/".Billing::STATUS_PENDING,
-                ]);
-                $bill->payment_data = json_encode($session->payment_intent);
-                $bill->save();
-                $bill->session = $session;
-                //return $response->withJson([ 'id' => $session->id ])->withStatus(200);
-            break;
         }
         switch ($type) {
             case Contest::TYPE_CONTEST:
